@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    background: linear-gradient(#9a8c98, whitesmoke);
+}
+
+#hero {
+    background: url(images/Warwickcover.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 0px 100px 0px;
+    animation-name: nature;
+    animation-duration: 20s;
+}
+
+@keyframes nature {
+    from {
+        background: url(images/Warwickcover.jpg);
+    }
+
+    to {
+        background: url(images/Warwickm.jpg)
+    }
+}
+
+#title {
+    margin-top: 0px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 6px black;
+    font-family: 'Orbitron', sans-serif;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.slogan {
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Orbitron', sans-serif;
+    width: 300px;
+    margin: auto;
+    border: none;
+    color: #283618;
+    background: white;
+    font-size: 18px;
+
+}
+
+.town-info {
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+#ash {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+#sessionhead {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.fun-sites {
+    text-align: center;
+    line-height: 2;
+}
+
+.site {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    ;
+}
+
+.site-title {
+    font-size: 18px;
+    color: olive;
+}
+
+.photo {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#profile {
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    box-shadow: 10px 10px 5px rgb(187, 178, 175);
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #7f9183;
+    color: black;
+    border-bottom: 6px solid #271b1f;
+    border-radius: 20px;
+}
+
+#profile-name {
+    color: goldenrod;
+    text-shadow: 0px 0px 5px rgb(3, 26, 21);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-info {
+    color: whitesmoke;
+}
